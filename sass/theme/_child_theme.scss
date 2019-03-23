@@ -1,0 +1,107 @@
+/*navbar*/
+.navbar a {
+	text-transform: uppercase;
+	font-size: large;
+	color: $secondary;
+}
+
+
+//SOCIAL navbar
+
+.socialmenuclass a.nav-link,
+.mysearchtoggle {
+	padding-right: 4px;
+	padding-left: 4px;
+	color: inherit;
+}
+
+/*headlines*/
+h1, h2, h3, h4, h5 h6 {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+/*footer*/
+#wrapper-footer {
+	font-size: medium;
+	background: black;
+	list-style: none;
+}
+
+#wrapper-footer a,
+#wrapper-footer p,
+#wrapper-footer li,
+#wrapper-footer button,
+#wrapper-footer h2 {
+	color: white
+}
+
+
+//Footer fonts
+#wrapper-footer h2{
+	font-size: large;
+	text-transform: uppercase;
+}
+
+//footer + recent post list style
+.widget_recent_entries ul,
+#wrapper-footer ul {
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+/*hr*/
+hr  {
+  border-width: 0;
+  border-top: 4px dotted currentColor;
+  opacity: 0.4;
+  width: 30px;
+  margin: 20px auto;
+}
+
+/*BUTTONS*/
+
+button:not(.navbar-toggler),
+#submit
+ {
+	@include button-outline-variant($dark);
+	background: white;
+	border-radius: $borderradius;
+}
+
+/*INPUT*/
+input {
+	border-radius: $borderradius !important;
+}
+
+/*right sidebar*/
+
+#right-sidebar {
+	text-align: center;
+}
+
+//widget-title
+h2.widget-title,
+h3.widget-title {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+
+//tagcloud
+
+.tagcloud a {
+    font-size: small !important;
+    border: 1px solid;
+    margin: 4px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/*posts*/
+.entry-title,
+.entry-meta{
+	text-transform: uppercase;
+}
