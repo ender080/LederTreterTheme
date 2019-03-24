@@ -105,3 +105,28 @@ h3.widget-title {
 .entry-meta{
 	text-transform: uppercase;
 }
+
+/******************Woocommerce****************/
+/*kasse*/
+/* Rechnungsdetails Labels*/
+#customer_details > div.col-12.col-sm-7 > div > div > p.form-row label {
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*100% Breite Eingabe*/
+.woocommerce-billing-fields__field-wrapper .form-row {
+	width: 100%!important;
+}
+
+/* 70% with input field*/
+.woocommerce-input-wrapper {
+	width: 70%;
+}
+
+/*Bestellnotiz 100% Breite*/
+#order_comments_field > span {
+	width: 100%!important
+}
