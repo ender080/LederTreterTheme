@@ -37,7 +37,7 @@ add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
 //register
 
 register_nav_menus( array(
-'socialmenu' => __( 'Social Menu', 'meterlimittheme' ),
+'socialmenu' => __( 'Social Menu', 'LederTreterThemetheme' ),
 ) );
 
 /**
@@ -54,11 +54,11 @@ add_shortcode('socialmenu', 'socialmenushortcode');
 /**************************WIDGETS*******************************/
 
 /*TOPBAR*/
-function meterlimittheme_widgets_init() {
+function LederTreterThemetheme_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Topbar', 'meterlimittheme' ),
+		'name'          => esc_html__( 'Topbar', 'LederTreterThemetheme' ),
 		'id'            => 'topbar',
-		'description'   => esc_html__( 'Add widgets here.', 'meterlimittheme' ),
+		'description'   => esc_html__( 'Add widgets here.', 'LederTreterThemetheme' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -67,9 +67,9 @@ function meterlimittheme_widgets_init() {
 
 /*Footer 1*/
 	register_sidebar( array(
-		'name'          => esc_html__( 'Footer left', 'meterlimittheme' ),
+		'name'          => esc_html__( 'Footer left', 'LederTreterThemetheme' ),
 		'id'            => 'footer_one',
-		'description'   => esc_html__( 'Add widgets here.', 'meterlimittheme' ),
+		'description'   => esc_html__( 'Add widgets here.', 'LederTreterThemetheme' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -79,9 +79,9 @@ function meterlimittheme_widgets_init() {
 /*Footer two*/
 
 	register_sidebar( array(
-		'name'          => esc_html__( 'Footer right', 'meterlimittheme' ),
+		'name'          => esc_html__( 'Footer right', 'LederTreterThemetheme' ),
 		'id'            => 'footer_two',
-		'description'   => esc_html__( 'Add widgets here.', 'meterlimittheme' ),
+		'description'   => esc_html__( 'Add widgets here.', 'LederTreterThemetheme' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -93,26 +93,70 @@ function meterlimittheme_widgets_init() {
 
 /*Footer 1*/
 	register_sidebar( array(
-		'name'          => esc_html__( 'Footer full', 'meterlimittheme' ),
+		'name'          => esc_html__( 'Footer full', 'LederTreterThemetheme' ),
 		'id'            => 'footer_three',
-		'description'   => esc_html__( 'Add widgets here.', 'meterlimittheme' ),
+		'description'   => esc_html__( 'Add widgets here.', 'LederTreterThemetheme' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'meterlimittheme_widgets_init' );
+add_action( 'widgets_init', 'LederTreterThemetheme_widgets_init' );
 
-$meterlimit_includes = array(
+$LederTreterTheme_includes = array(
 	'/excerpt.php',                  // Initialize excerpt
 	'/postedon.php',                  // Posted on
 );
 
-foreach ( $meterlimit_includes as $file ) {
+foreach ( $LederTreterTheme_includes as $file ) {
 	$filepath = locate_template( 'inc' . $file );
 	if ( ! $filepath ) {
 		trigger_error( sprintf( 'Error locating /inc%s for inclusion', $file ), E_USER_ERROR );
 	}
 	require_once $filepath;
 }
+
+
+/*
+*GUTENBERG
+*/
+
+/**
+ * Enqueue editor styles for Gutenberg
+ */
+function codearosa_editor_styles() {
+	wp_enqueue_style( 'codearosa-editor-style', get_stylesheet_directory_uri() . '/styles/css/custom-editor-style.min.css' );
+
+}
+add_action( 'enqueue_block_editor_assets', 'codearosa_editor_styles' );
+
+/*colors*/
+/**
+* Add support for Gutenberg.
+*
+* @link https://wordpress.org/gutenberg/handbook/reference/theme-support/
+*/
+function mytheme_setup_theme_supported_features() {
+
+		// Theme supports wide images, galleries and videos.
+		add_theme_support( 'align-wide' );
+
+		// Make specific theme colors available in the editor.
+    add_theme_support( 'editor-color-palette',
+        array(
+            'name' => 'primary',
+            'color' => '#C8689A',
+        ),
+        array(
+            'name' => 'secondary',
+            'color' => '#ffffff',
+        ),
+        array(
+            'name' => 'success',
+            'color' => '#60B7C1',
+        )
+    );
+}
+
+add_action( 'after_setup_theme', 'mytheme_setup_theme_supported_features' );
