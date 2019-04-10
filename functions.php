@@ -107,6 +107,7 @@ add_action( 'widgets_init', 'LederTreterThemetheme_widgets_init' );
 $LederTreterTheme_includes = array(
 	'/excerpt.php',                  // Initialize excerpt
 	'/postedon.php',                  // Posted on
+	'/defaultImage.php',              // Default image
 );
 
 foreach ( $LederTreterTheme_includes as $file ) {
