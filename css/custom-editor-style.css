@@ -11787,24 +11787,24 @@ hr {
 /*BUTTONS*/
 button:not(.navbar-toggler),
 #submit {
-  color: black;
-  border-color: black;
+  color: #77b72e;
+  border-color: #77b72e;
   background: white;
   border-radius: 0px; }
   button:not(.navbar-toggler):hover,
   #submit:hover {
     color: #fff;
-    background-color: black;
-    border-color: black; }
+    background-color: #77b72e;
+    border-color: #77b72e; }
   button:not(.navbar-toggler):focus, button:not(.navbar-toggler).focus,
   #submit:focus,
   #submit.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
-            box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(119, 183, 46, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(119, 183, 46, 0.5); }
   button:not(.navbar-toggler).disabled, button:not(.navbar-toggler):disabled,
   #submit.disabled,
   #submit:disabled {
-    color: black;
+    color: #77b72e;
     background-color: transparent; }
   button:not(.navbar-toggler):not(:disabled):not(.disabled):active, button:not(.navbar-toggler):not(:disabled):not(.disabled).active,
   .show > button:not(.navbar-toggler).dropdown-toggle,
@@ -11813,16 +11813,16 @@ button:not(.navbar-toggler),
   .show >
   #submit.dropdown-toggle {
     color: #fff;
-    background-color: black;
-    border-color: black; }
+    background-color: #77b72e;
+    border-color: #77b72e; }
     button:not(.navbar-toggler):not(:disabled):not(.disabled):active:focus, button:not(.navbar-toggler):not(:disabled):not(.disabled).active:focus,
     .show > button:not(.navbar-toggler).dropdown-toggle:focus,
     #submit:not(:disabled):not(.disabled):active:focus,
     #submit:not(:disabled):not(.disabled).active:focus,
     .show >
     #submit.dropdown-toggle:focus {
-      -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
-              box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
+      -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(119, 183, 46, 0.5);
+              box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(119, 183, 46, 0.5); }
 
 /*INPUT*/
 input {

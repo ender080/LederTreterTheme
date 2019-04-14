@@ -65,7 +65,7 @@ hr  {
 button:not(.navbar-toggler),
 #submit
  {
-	@include button-outline-variant($dark);
+	@include button-outline-variant($primary);
 	background: white;
 	border-radius: $borderradius;
 }
