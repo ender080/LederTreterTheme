@@ -60,15 +60,6 @@ hr  {
   margin: 20px auto;
 }
 
-/*BUTTONS*/
-
-button:not(.navbar-toggler),
-#submit
- {
-	@include button-outline-variant($primary);
-	background: white;
-	border-radius: $borderradius;
-}
 
 /*INPUT*/
 input {
