@@ -23,6 +23,9 @@ $enable-shadows: true;
 body.login div#login h1 a {
 	background-image: url(https://leder-treter.de/wp-content/uploads/2019/04/Favicon-Leder-Treter-Puschen-Onlineshop.png);  //Add your own logo image in this url
 	padding-bottom: 30px;
+  background-color: white;
+  border-radius: $borderradius;
+  padding: 1em;
 }
 body.login {
 	background-color: $primary;
