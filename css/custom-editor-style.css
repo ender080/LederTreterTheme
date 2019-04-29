@@ -87,7 +87,7 @@
   max-width: 100%; }
 
 .editor-writing-flow {
-  font-family: Source Sans Pro; }
+  font-family: Roboto; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com)
@@ -147,7 +147,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Source Sans Pro;
+  font-family: Roboto;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5745,7 +5745,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Source Sans Pro;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5830,7 +5830,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Source Sans Pro;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
