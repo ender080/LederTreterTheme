@@ -33,7 +33,7 @@
 
 			<div class="container w-50 mx-auto text-center my-5 d-none d-lg-block"><?php get_template_part( 'template-particles/brandandlogo' ); ?></div> <!-- Logo on Desktop-->
 
-			<nav class="navbar container navbar-expand-lg sticky-top" role="navigation">
+			<nav class="navbar sticky-top container navbar-expand-lg" role="navigation">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 							<span class="navbar-toggler-icon"></span>
