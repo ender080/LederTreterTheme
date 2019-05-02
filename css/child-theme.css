@@ -170,14 +170,6 @@ aside {
     top: 0;
     z-index: 1020; } }
 
-/*NOTICE LOGIN PAGE*/
-h2.greenme {
-  text-align: center;
-  background-color: #77b72e;
-  font-size: larger;
-  padding: 2em;
-  color: white; }
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
