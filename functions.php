@@ -163,6 +163,7 @@ function mytheme_setup_theme_supported_features() {
 
 add_action( 'after_setup_theme', 'mytheme_setup_theme_supported_features' );
 
+
 /**
  * Add a message above the login / register form on my-account page
  */
@@ -170,7 +171,7 @@ add_action( 'woocommerce_before_customer_login_form', 'jk_login_message' );
 function jk_login_message() {
     if ( get_option( 'woocommerce_enable_myaccount_registration' ) == 'yes' ) {
 	?>
-<h3 class="bg-primary text-white text-center py-2">Dies ist einer neuer Onlineshop. Bitte registriere dich neu.</h3>
+		<h3 class="bg-primary text-white text-center py-2">Dies ist einer neuer Onlineshop. Bitte registriere dich neu.</h3>
 	<?php
 	}
 }
