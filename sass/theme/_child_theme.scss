@@ -1,9 +1,20 @@
 /*navbar*/
-.navbar a {
+.navbar-light .navbar-nav .active>.nav-link {
+	border-top: 2px solid $primary;
+	color: $primary !important;
+}
+
+a.nav-link:hover {
+	color: $primary !important;
+}
+
+.navbar a,
+.navbar-light .navbar-nav .nav-link {
 	text-transform: uppercase;
-	font-size: large;
+	font-size: larger;
 	color: $secondary;
 }
+
 
 
 //SOCIAL navbar

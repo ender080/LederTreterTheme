@@ -1,88 +1,110 @@
 @charset "UTF-8";
-/* source-sans-pro-200 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 200;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-200.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro ExtraLight"), local("SourceSansPro-ExtraLight"), url("../fonts/localfont/source-sans-pro-v11-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-200.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-200.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-200.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-200.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-200italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 200;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-200italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro ExtraLight Italic"), local("SourceSansPro-ExtraLightItalic"), url("../fonts/localfont/source-sans-pro-v11-latin-200italic.eot?#iefix") format("embedded-opentype"), url("../fonts/fonts/localfont/source-sans-pro-v11-latin-200italic.woff2") format("woff2"), url("../fonts/fonts/localfont/source-sans-pro-v11-latin-200italic.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-200italic.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-200italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-300 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-300.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("../fonts/localfont/source-sans-pro-v11-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-300.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-300.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-300.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-300.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-300italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-300italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url("../fonts/localfont/source-sans-pro-v11-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-300italic.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-300italic.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-300italic.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-300italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Italic"), local("SourceSansPro-Italic"), url("../fonts/localfont/source-sans-pro-v11-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-italic.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-italic.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-italic.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-regular - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../fonts/localfont/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-700italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-700italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldItalic"), url("../fonts/localfont/source-sans-pro-v11-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-700italic.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-700italic.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-700italic.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-700italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
-/* source-sans-pro-700 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/localfont/source-sans-pro-v11-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("../fonts/localfont/source-sans-pro-v11-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/localfont/source-sans-pro-v11-latin-700.woff2") format("woff2"), url("../fonts/localfont/source-sans-pro-v11-latin-700.woff") format("woff"), url("../fonts/localfont/source-sans-pro-v11-latin-700.ttf") format("truetype"), url("../fonts/localfont/source-sans-pro-v11-latin-700.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-
 /*font family*/
 /*Colors*/
 /*border-style*/
 /*enable*/
+/*navbar*/
+.navbar-light .navbar-nav .active > .nav-link {
+  border-top: 2px solid #77b72e;
+  color: #77b72e !important; }
+
+a.nav-link:hover {
+  color: #77b72e !important; }
+
+.navbar a,
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: larger;
+  color: #9D989E; }
+
+.socialmenuclass a.nav-link,
+.mysearchtoggle {
+  padding-right: 4px;
+  padding-left: 4px;
+  color: inherit; }
+
+/*headlines*/
+h1, h2, h3, h4, h5 h6 {
+  text-transform: uppercase;
+  font-weight: 300; }
+
+/*footer*/
+#wrapper-footer {
+  font-size: medium;
+  background: white;
+  list-style: none; }
+
+#wrapper-footer a,
+#wrapper-footer p,
+#wrapper-footer li,
+#wrapper-footer button,
+#wrapper-footer h2 {
+  color: black; }
+
+#wrapper-footer h2 {
+  font-size: large;
+  text-transform: uppercase; }
+
+.widget_recent_entries ul,
+#wrapper-footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: left; }
+
+/*hr*/
+hr {
+  border-width: 0;
+  border-top: 4px dotted currentColor;
+  opacity: 0.4;
+  width: 30px;
+  margin: 20px auto; }
+
+/*INPUT*/
+input {
+  border-radius: 4px !important; }
+
+/*right sidebar*/
+#right-sidebar {
+  text-align: center; }
+
+h2.widget-title,
+h3.widget-title {
+  text-align: left;
+  padding-bottom: 10px; }
+
+.tagcloud a {
+  font-size: small !important;
+  border: 1px solid;
+  margin: 4px;
+  padding: 2px;
+  border-radius: 5px; }
+
+/*posts*/
+.entry-title,
+.entry-meta {
+  text-transform: uppercase; }
+
+/******************Woocommerce****************/
+/*kasse*/
+/* Rechnungsdetails Labels*/
+#customer_details > div.col-12.col-sm-7 > div > div > p.form-row label {
+  width: 30%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top; }
+
+/*100% Breite Eingabe*/
+.woocommerce-billing-fields__field-wrapper .form-row {
+  width: 100% !important; }
+
+/* 70% with input field*/
+.woocommerce-input-wrapper {
+  width: 70%; }
+
+/*Bestellnotiz 100% Breite*/
+#order_comments_field > span {
+  width: 100% !important; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -11005,99 +11027,5 @@ a.skip-link {
 
 .gallery-caption {
   display: block; }
-
-/*navbar*/
-.navbar a {
-  text-transform: uppercase;
-  font-size: large;
-  color: #9D989E; }
-
-.socialmenuclass a.nav-link,
-.mysearchtoggle {
-  padding-right: 4px;
-  padding-left: 4px;
-  color: inherit; }
-
-/*headlines*/
-h1, h2, h3, h4, h5 h6 {
-  text-transform: uppercase;
-  font-weight: 300; }
-
-/*footer*/
-#wrapper-footer {
-  font-size: medium;
-  background: white;
-  list-style: none; }
-
-#wrapper-footer a,
-#wrapper-footer p,
-#wrapper-footer li,
-#wrapper-footer button,
-#wrapper-footer h2 {
-  color: black; }
-
-#wrapper-footer h2 {
-  font-size: large;
-  text-transform: uppercase; }
-
-.widget_recent_entries ul,
-#wrapper-footer ul {
-  padding: 0;
-  list-style: none;
-  text-align: left; }
-
-/*hr*/
-hr {
-  border-width: 0;
-  border-top: 4px dotted currentColor;
-  opacity: 0.4;
-  width: 30px;
-  margin: 20px auto; }
-
-/*INPUT*/
-input {
-  border-radius: 4px !important; }
-
-/*right sidebar*/
-#right-sidebar {
-  text-align: center; }
-
-h2.widget-title,
-h3.widget-title {
-  text-align: left;
-  padding-bottom: 10px; }
-
-.tagcloud a {
-  font-size: small !important;
-  border: 1px solid;
-  margin: 4px;
-  padding: 2px;
-  border-radius: 5px; }
-
-/*posts*/
-.entry-title,
-.entry-meta {
-  text-transform: uppercase; }
-
-/******************Woocommerce****************/
-/*kasse*/
-/* Rechnungsdetails Labels*/
-#customer_details > div.col-12.col-sm-7 > div > div > p.form-row label {
-  width: 30%;
-  text-align: left;
-  display: inline-block;
-  vertical-align: top; }
-
-/*100% Breite Eingabe*/
-.woocommerce-billing-fields__field-wrapper .form-row {
-  width: 100% !important; }
-
-/* 70% with input field*/
-.woocommerce-input-wrapper {
-  width: 70%; }
-
-/*Bestellnotiz 100% Breite*/
-#order_comments_field > span {
-  width: 100% !important; }
 
 /*# sourceMappingURL=child-theme.css.map */
