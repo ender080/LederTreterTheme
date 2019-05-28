@@ -109,25 +109,37 @@ h3.widget-title {
 }
 
 /**************kasse*********/
-/* Rechnungsdetails Labels*/
-#customer_details > div.col-12.col-sm-7 > div > div > p.form-row label {
-    width: 30%;
-    text-align: left;
-    display: inline-block;
-    vertical-align: top;
+
+.button {
+    color: white !important;
+    background-color: $primary !important;
 }
 
-/*100% Breite Eingabe*/
+/* Rechnungsdetails Labels*/
+.form-row {
+		@extend .row;
+}
+.control-label {
+	@extend .col-3;
+}
+
+/*anmelden*/
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+	@extend .col;
+}
+
+/*100% Breite Eingabe*
 .woocommerce-billing-fields__field-wrapper .form-row {
 	width: 100%!important;
 }
 
-/* 70% with input field*/
+/* 70% with input field*
 .woocommerce-input-wrapper {
 	width: 70%;
 }
 
-/*Bestellnotiz 100% Breite*/
+/*Bestellnotiz 100% Breite*
 #order_comments_field > span {
 	width: 100%!important
 }
