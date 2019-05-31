@@ -8,17 +8,18 @@ a.nav-link:hover {
 	color: $primary !important;
 }
 
+.navbar-light .navbar-nav .nav-link,
+#masthead > nav > a.nav-link.d-none.d-lg-block {
+    color: rgba(0,0,0,.9) !important;
+}
+
 .navbar a,
 .navbar-light .navbar-nav .nav-link {
 	text-transform: uppercase;
 	font-size: larger;
-	color: $secondary;
 }
 
-.navbar-light .navbar-nav .nav-link,
-#masthead > nav > a.nav-link.d-none.d-lg-block {
-    color: rgba(0,0,0,.9);
-}
+
 
 
 //SOCIAL navbar
