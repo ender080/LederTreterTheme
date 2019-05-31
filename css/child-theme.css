@@ -17,6 +17,10 @@ a.nav-link:hover {
   font-size: larger;
   color: #9D989E; }
 
+.navbar-light .navbar-nav .nav-link,
+#masthead > nav > a.nav-link.d-none.d-lg-block {
+  color: rgba(0, 0, 0, 0.9); }
+
 .socialmenuclass a.nav-link,
 .mysearchtoggle {
   padding-right: 4px;
