@@ -11014,9 +11014,12 @@ a.skip-link {
 
 .socialmenuclass a.nav-link,
 .mysearchtoggle {
-  padding-right: 4px;
-  padding-left: 4px;
+  padding-right: none;
+  padding-left: none;
   color: inherit; }
+
+.fa:hover {
+  color: #77b72e; }
 
 /*headlines*/
 h1, h2, h3, h4, h5 h6 {
