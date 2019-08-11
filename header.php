@@ -39,9 +39,9 @@
 							<span class="navbar-toggler-icon"></span>
 						</button>
 
-							<div class="w-50 d-lg-none"><?php get_template_part( 'template-particles/brandandlogo' ); ?></div> <!-- Logo in mobile menu-->
-
-									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle fa fa-search" aria-hidden="true"></i> </a><!-- Search on mobile menu-->
+							<div class="d-lg-none"><?php get_template_part( 'template-particles/brandandlogo' ); ?></div> <!-- Logo in mobile menu-->
+									<a href="/warenkorb/" class="nav-link d-lg-none"><i class="mysearchtoggle fa fa-shopping-cart" aria-hidden="true"></i></a><!-- CART on mobile menu-->
+									<a href="#" class="nav-link d-lg-none" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle fa fa-search" aria-hidden="true"></i></a><!-- Search on mobile menu-->
 
 									<div class="d-none d-xl-block"><?php get_template_part( 'template-particles/socialmenu' ); ?></div><!-- socialmenu on Desktop-->
 
@@ -58,6 +58,7 @@
 										)
 									); ?>
 
+									<a href="/warenkorb/" class="nav-link d-none d-lg-block"><i class="mysearchtoggle fa fa-shopping-cart" aria-hidden="true"></i></a><!-- CART on mobile menu-->
 									<a href="#" class="nav-link d-none d-lg-block" data-toggle="collapse" data-target="#dropdownsearch"><i class="mysearchtoggle fa fa-search" aria-hidden="true"></i> </a><!-- Search on Desktop menu-->
 
 
