@@ -19,6 +19,7 @@
 
 body.login div#login h1 a {
   background-image: url(https://leder-treter.de/wp-content/uploads/2019/04/Favicon-Leder-Treter-Puschen-Onlineshop.png);
+  background-position: center center;
   padding-bottom: 30px;
   background-color: white;
   border-radius: 4px;
@@ -54,10 +55,6 @@ form, input {
   /*force yellow background in chrome*/
   -webkit-box-shadow: 0 0 0 100px rgba(250, 250, 250, 0) inset !important;
   border: 1px solid #77b72e;
-  background-image: none !important;
-  color: white !important; }
-
-input:focus, textarea, button:focus {
-  border: none !important; }
+  background-image: none !important; }
 
 /*# sourceMappingURL=stylemylogin.css.map */
