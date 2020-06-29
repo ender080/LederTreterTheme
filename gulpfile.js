@@ -93,8 +93,9 @@ gulp.task( 'cssnano', function() {
 });
 
 gulp.task( 'minifycss', function() {
-  return gulp.src( paths.css + '/child-theme.css' )
-  .pipe( sourcemaps.init( { loadMaps: true } ) )
+  return gulp.src( paths.css + '/*.css' )
+    .pipe( ignore( '*.min.css' ) )
+    .pipe( sourcemaps.init( { loadMaps: true } ) )
     .pipe( cleanCSS( { compatibility: '*' } ) )
     .pipe( plumber( {
             errorHandler: function( err ) {
@@ -103,7 +104,7 @@ gulp.task( 'minifycss', function() {
             }
         } ) )
     .pipe( rename( { suffix: '.min' } ) )
-     .pipe( sourcemaps.write( './' ) )
+    .pipe( sourcemaps.write( './' ) )
     .pipe( gulp.dest( paths.css ) );
 });
 
